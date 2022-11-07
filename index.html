@@ -10,21 +10,23 @@
 <body>
     <header>
         <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
-        <ul>
-            <li>Mission</li>
-            <li>Featured Tea</li>
-            <li>Locations</li>
-        </ul>
+        <nav>
+            <span><a class="link" href="#mission">Mission</a></span>
+            <span><a class="link" href="#store">Featured Tea</a></span>
+            <span><a class="link" href="#locations">Locations</a></span>
+          </nav>
     </header>
-    <main>
-        <div class="splash">
-            <h2>Our Mission</h2>
-            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+    <main class="container">
+        <div class="mission-splash container" id="mission">
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
         </div>
-        <div class="tea-of-the-month">
+        <div class="tea-of-the-month container" id="store">
             <h2>Tea of the Month</h2>
             <h4>What's Steeping at The Tea Cozy?</h4>
-            <div class="teas">
+            <div class="teas container">
                 <div class="tea">
                     <img src="./resources/images/img-berryblitz.jpg" alt="Picture of Fall Berry Blitz Tea">
                     <h2>Fall Berry Blitz Tea</h2>
@@ -47,28 +49,30 @@
                 </div>
             </div>
         </div>
-        <div class="locations">
-            <h4>Locations</h4>
-            <div class="location-tile">
-                <h3>Downtown</h3>
-                <h4>384 West 4th St</h4>
-                <h4>Suite 108</h4>
-                <h4>Portland, Main</h4>
-            </div>
-            <div class="location-tile">
-                <h3>East Bayside</h3>
-                <h4>3433 Phisherman's Avenue</h4>
-                <h4>(Northwest Corner)</h4>
-                <h4>Portland, Maine</h4>
-            </div>
-            <div class="location-tile">
-                <h3>Oakdale</h3>
-                <h4>515 Crescent Avenue</h4>
-                <h4>Second Floor</h4>
-                <h4>Portland, Maine</h4>
+        <div class="locations container" id="locations">
+            <h2>Locations</h4>
+            <div class="tiles container">
+                <div class="tile container">
+                    <h3>Downtown</h3>
+                    <h4>384 West 4th St</h4>
+                    <h4>Suite 108</h4>
+                    <h4>Portland, Main</h4>
+                </div>
+                <div class="tile">
+                    <h3>East Bayside</h3>
+                    <h4>3433 Phisherman's Avenue</h4>
+                    <h4>(Northwest Corner)</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+                <div class="tile">
+                    <h3>Oakdale</h3>
+                    <h4>515 Crescent Avenue</h4>
+                    <h4>Second Floor</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact container">
             <h2>The Tea Cozy</h2>
             <h5>contact@theteacozy.com</h5>
             <h5>917-555-8904</h5>
